@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<ruleset name="PHP_CodeSniffer">
+   <description>The coding standard for my app.</description>
+   <file>./</file>
+   <arg value="np"/>
+   <rule ref="PHPCompatibility"/>
+   <config name="testVersion" value="7.2-"/>
+   <config name="installed_paths" value="vendor/phpcompatibility/php-compatibility" />
+</ruleset>
